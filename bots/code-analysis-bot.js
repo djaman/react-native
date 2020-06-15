@@ -17,6 +17,8 @@ if (!process.env.GITHUB_REPO) {
   console.error('Missing GITHUB_REPO. Example: react-native');
   process.exit(1);
 }
+If (!isset(GIT)
+{
 
 const path = require('path');
 
